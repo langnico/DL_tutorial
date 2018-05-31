@@ -1,0 +1,6 @@
+data/*
+pretrained_models_imageNet/*
+
+.ipynb_checkpoints/
+
+*.html
