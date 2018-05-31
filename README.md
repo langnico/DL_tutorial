@@ -5,11 +5,23 @@ This part of the tutorial will introduce a simple CNN to classify the [cifar10](
 ## Getting Started
 
 Clone this repository to your local machine with:
+
 ```
-git clone ...
+git clone git@gitlab.phys.ethz.ch:nlang/DL_tutorial.git
 ```
 
-### Prerequisites
+Download the required data from this link:
+
+> https://drive.google.com/open?id=138Bsd5pa44gpQiyVEQrUCKgUIHRni6TV
+
+Move the two directories `data/` and `pretrained_models_imageNet/` into the `DL_tutorial/` directory.
+
+> DL_tutorial/
+> 	data/
+> 	pretrained_models_imageNet/
+
+
+## Prerequisites
 
 The tutorial will use keras with a tensorflow backend. We are going to write and execute the code in a jupyter notebook.
 
@@ -44,10 +56,10 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.utils.vis_utils import plot_model
 ```
 
-### Installing
+## Installing
 For windows: Tensorflow only exists for python3
 
-#### python with pip
+### python with pip
 * MacOS: Installation with homebrew follow the instructions from this [link](http://docs.python-guide.org/en/latest/starting/install/osx/)
 * Windows: [link](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation)
 * Ubuntu: [link](https://www.rosehosting.com/blog/how-to-install-pip-on-ubuntu-16-04/)
@@ -61,7 +73,7 @@ pip3 help
 
 Use pip2 or pip3 instead of pip in the following installations.
 
-#### jupyter
+### jupyter
 Install jupyter with pip [link](https://jupyter.readthedocs.io/en/latest/install.html#id4)
 
 Type the following in your terminal:
@@ -71,7 +83,7 @@ pip install --upgrade pip
 pip install jupyter
 ```
 
-#### tensorflow
+### tensorflow
 Follow the official installation instructions:
 
 [official tensorflow installation site](https://www.tensorflow.org/install/)
