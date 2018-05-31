@@ -16,9 +16,9 @@ Download the required data from this link:
 
 Move the two directories `data/` and `pretrained_models_imageNet/` into the `DL_tutorial/` directory.
 
-> DL_tutorial/
-> 	data/
-> 	pretrained_models_imageNet/
+* DL_tutorial/
+	* data/
+	* pretrained_models_imageNet/
 
 
 ## Prerequisites
