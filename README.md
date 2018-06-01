@@ -12,7 +12,7 @@ git clone git@gitlab.phys.ethz.ch:nlang/DL_tutorial.git
 
 Download the required data from this link:
 
-> https://drive.google.com/open?id=138Bsd5pa44gpQiyVEQrUCKgUIHRni6TV
+> https://drive.google.com/open?id=1KoR9ISddhHsecsZG0lmePNONYKOZns1E
 
 Move the two directories `data/` and `pretrained_models_imageNet/` into the `DL_tutorial/` directory.
 
