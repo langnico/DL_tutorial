@@ -14,10 +14,11 @@ Download the required data from this link:
 
 > https://drive.google.com/open?id=1KoR9ISddhHsecsZG0lmePNONYKOZns1E
 
-Move the two directories `data/` and `pretrained_models_imageNet/` into the `DL_tutorial/` directory.
+Move the directories into the `DL_tutorial/` directory. The directory tree should look like this:
 
 * DL_tutorial/
 	* data/
+	* model_weights/
 	* pretrained_models_imageNet/
 
 
