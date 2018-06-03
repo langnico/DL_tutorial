@@ -7,7 +7,7 @@ This part of the tutorial will introduce a simple CNN to classify the [cifar10](
 Clone this repository to your local machine with:
 
 ```
-git clone git@gitlab.phys.ethz.ch:nlang/DL_tutorial.git
+git clone https://github.com/langnico/DL_tutorial.git
 ```
 
 Download the required data from this link:
